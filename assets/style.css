@@ -61,16 +61,12 @@ h1 {
 }
 
 .gif {
-    border: 2px solid black;
+    border: 3px solid black;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin: 4px 2px;
-    /* float: left; */
+    margin: 5px 4px;
+    border-radius: 6px;
 }
 
 .divg {
     float: left;
 }
-
-/* .prating {
-    float: left;
-} */
