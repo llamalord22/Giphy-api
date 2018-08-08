@@ -1,0 +1,61 @@
+
+
+body {
+padding: 15px;    
+background: #360033;
+background: -webkit-linear-gradient(to right, #0b8793, #360033); 
+background: linear-gradient(to right, #0b8793, #360033);
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+button.gif-btn {
+    background-color: #400080;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#giphy-form {
+    text-align: right;
+    font-weight: bold;
+}
+
+#add-game {
+    background-color: #400080;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
