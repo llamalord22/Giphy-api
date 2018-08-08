@@ -12,6 +12,7 @@ background: linear-gradient(to right, #0b8793, #360033);
     text-align: center;
     color: white;
     font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
 
 }
 
@@ -61,5 +62,15 @@ h1 {
 
 .gif {
     border: 2px solid black;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 4px 2px;
+    /* float: left; */
 }
+
+.divg {
+    float: left;
+}
+
+/* .prating {
+    float: left;
+} */

@@ -14,13 +14,14 @@ function searchGame() {
 
         var results = response.data;
         for (var i = 0; i < results.length; i++) {
-            var gameDiv = $("<div>");
-            var p = $("<p>").text("Rating: " + results[i].rating);
+            var gameDiv = $("<div class='divg'>");
+            var p = $("<p class='prating'>").text("Rating: " + results[i].rating);
             var gameImage = $('<img class="gif" src="' + response.data[i].images.fixed_height_still.url + '">');
             
 
-            gameDiv.append(p);
+            
             gameDiv.append(gameImage);
+            gameDiv.append(p);
             $("#game-gifs").prepend(gameDiv);
 
             
