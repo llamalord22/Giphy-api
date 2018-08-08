@@ -16,14 +16,13 @@ function searchGame() {
         for (var i = 0; i < results.length; i++) {
             var gameDiv = $("<div>");
             var p = $("<p>").text("Rating: " + results[i].rating);
-            var gameImage = $("<img>");
-
-            gameImage.attr("src", results[i].images.fixed_height.url);
+            var gameImage = $('<img class="gif" src="' + response.data[i].images.fixed_height_still.url + '">');
             
 
             gameDiv.append(p);
             gameDiv.append(gameImage);
             $("#game-gifs").prepend(gameDiv);
+
             
         }
 
@@ -53,6 +52,17 @@ $("#add-game").on("click", function (event) {
     
     
 
+});
+
+$('body').on('click', '.gif', function() {
+    var src = $(this).attr("src");
+  if($(this).hasClass('playing')){
+     $(this).attr('src', src.replace(/\.gif/i, "_s.gif"))
+     $(this).removeClass('playing');
+  } else {
+    $(this).addClass('playing');
+    $(this).attr('src', src.replace(/\_s.gif/i, ".gif"))
+  }
 });
 
 
